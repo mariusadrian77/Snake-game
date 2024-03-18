@@ -14,7 +14,7 @@ class Snake(object):
     
     def handle_keys(self):
         key = pygame.key.get_pressed()
-        # dist = 1
+
         if key[pygame.K_a]:
            self.rect.move_ip(-self.width, 0)
         if key[pygame.K_d]:
