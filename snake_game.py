@@ -97,7 +97,7 @@ def main():
     food = Food()
 
     while True:
-        screen.fill(WHITE)
+        screen.fill(BLACK)
 
         snake.handle_keys()
         snake.move()
